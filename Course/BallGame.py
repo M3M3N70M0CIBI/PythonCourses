@@ -171,7 +171,7 @@ def on_escape(event):
 canvas.bind_all("<Escape>", on_escape)
 
 while True:
-    score = Score(canvas, 'white')
+    score = Score(canvas, 'black')
 
     paddle = Paddle(canvas, 'white')
 
